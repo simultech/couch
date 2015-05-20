@@ -14,6 +14,8 @@
 		A915E9731B0CBDCB003B48BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A915E9721B0CBDCB003B48BA /* Images.xcassets */; };
 		A915E9761B0CBDCB003B48BA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A915E9741B0CBDCB003B48BA /* LaunchScreen.xib */; };
 		A915E9821B0CBDCB003B48BA /* couchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A915E9811B0CBDCB003B48BA /* couchTests.swift */; };
+		A915E98F1B0CC767003B48BA /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = A915E98E1B0CC767003B48BA /* Movies.swift */; };
+		A915E9911B0CCA93003B48BA /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A915E9901B0CCA93003B48BA /* LibraryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		A915E97B1B0CBDCB003B48BA /* couchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = couchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A915E9801B0CBDCB003B48BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A915E9811B0CBDCB003B48BA /* couchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = couchTests.swift; sourceTree = "<group>"; };
+		A915E98E1B0CC767003B48BA /* Movies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
+		A915E9901B0CCA93003B48BA /* LibraryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,9 @@
 		A915E9661B0CBDCB003B48BA /* couch */ = {
 			isa = PBXGroup;
 			children = (
+				A915E98D1B0CC68C003B48BA /* Views */,
+				A915E98C1B0CC686003B48BA /* Controllers */,
+				A915E98B1B0CC680003B48BA /* Models */,
 				A915E9691B0CBDCB003B48BA /* AppDelegate.swift */,
 				A915E96B1B0CBDCB003B48BA /* FirstViewController.swift */,
 				A915E96D1B0CBDCB003B48BA /* SecondViewController.swift */,
@@ -113,6 +120,29 @@
 				A915E9801B0CBDCB003B48BA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A915E98B1B0CC680003B48BA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A915E98E1B0CC767003B48BA /* Movies.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A915E98C1B0CC686003B48BA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A915E9901B0CCA93003B48BA /* LibraryViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A915E98D1B0CC68C003B48BA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,7 +246,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A915E96E1B0CBDCB003B48BA /* SecondViewController.swift in Sources */,
+				A915E9911B0CCA93003B48BA /* LibraryViewController.swift in Sources */,
 				A915E96A1B0CBDCB003B48BA /* AppDelegate.swift in Sources */,
+				A915E98F1B0CC767003B48BA /* Movies.swift in Sources */,
 				A915E96C1B0CBDCB003B48BA /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
